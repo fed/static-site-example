@@ -1,0 +1,37 @@
+{
+  "private": true,
+  "name": "static-site-example",
+  "version": "0.0.0",
+  "description": "Sample setup for simple static sites",
+  "license": "MIT",
+  "author": {
+    "name": "Federico Knüssel",
+    "email": "fknussel@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fknussel/static-site-example.git"
+  },
+  "scripts": {
+    "start": "grunt",
+    "build": "grunt build",
+    "test": "echo \"Error: no test specified\""
+  },
+  "devDependencies": {
+    "basscss": "^8.0.3",
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-requirejs": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-eslint": "^20.1.0",
+    "grunt-sass": "^2.0.0",
+    "grunt-sass-lint": "^0.2.3",
+    "load-grunt-config": "^0.19.2",
+    "normalize.css": "^7.0.0",
+    "requirejs": "^2.1.15",
+    "surge": "^0.19.0"
+  }
+}
